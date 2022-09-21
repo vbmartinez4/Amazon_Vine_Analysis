@@ -42,20 +42,22 @@ From here we dive deeper into review analysis for each vine program category.
 
 ## Results
 - **How many Vine reviews and non-Vine reviews were there?**
-There were 647 Vine reviews of beauty products. Comparing this to the total Vine reviews, this makes up roughly 0.87% of the total data
+There were 647 Vine program reviews of beauty products. Comparing this to the total Vine reviews, this makes up roughly 0.87% of the total data
 
-There were 74,113 reviews that were not part of the Vine program. The percentage of non-Vine reviews for the total Vine reviews is approximately 99.13%. The non-Vine reviews by are exceeded the ones that were Vine reviews. 
+There were 74,113 reviews that were not part of the Vine program. The percentage of non-Vine reviews in comparison to the total Vine reviews is approximately 99.13%. The non-Vine program reviews by far exceeded the ones that were Vine program categorized reviews. 
 
 - **How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?** 
 Utilizing the filtered dataset for vine paid reviews only, we determined that there were 229 reviews that were paid and given a ranking of 5-stars. 
 
-However, for non-Vine reviews that were given 5-stars, we determined that there are 43, 217 reviews in the whole data that received this type of rating. 
+However, for non-Vine reviews that were given 5-stars, we determined that there are 43,217 reviews in the whole data that received this type of rating. 
 
 - **What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
 
 We determine that the overall percentage of Vine reviews that were compromised of 5-stars is approximately 35.39%. For the non-Vine reviews, we determine approximately 58.31%. 
 
-Ultimately, we can see that the percentage of unpaid Vine reviews that ranked 5-stars exceeded the same measure for Vine reviews. There were more individuals of those who were not part of the Vine program but nonetheless provided greater high ranking reviews over Vine program participants. 
+Ultimately, we can see that the percentage of unpaid Vine reviews that ranked 5-stars exceeded the same measure for Vine reviews. There were more individuals of those who were not part of the Vine program but nonetheless provided greater high ranking reviews of 5-stars over Vine program participants. 
 
 ## Summary
-After conducting our analysis of the beauty review data, we can conclude that bias does not exist for reviews in the Vine program. For members of the Vine program, they essentially have the job and responsibility of providing an accurate testament of the product they are publishing a review for. Granted they did publish less 5-star rating reviews than those who were not part of the program and therefore not paid, it should take into notice that they are more critical of their analysis in he reviews they do put out as part of their job. It can be seen as they being honest with giving a more true rating. This reasoning correlates with the lower percentage rating collected of 5-stars that Vine members gave versus the non-Vine members. 
+After conducting our analysis of Amazon's beauty review data, we can conclude that bias does not exist for reviews in the Vine program. For members of the Vine program, they essentially have the job and responsibility of providing an accurate testament of the product they are publishing a review for. Granted they did publish less 5-star rating reviews than those who were not part of the program and therefore not paid, it should take into notice that they are more critical of their analysis in he reviews they do put out as part of their job. It can be seen as them being honest with giving a more true rating. This reasoning correlates with the lower percentage rating collected of 5-stars that Vine members gave versus the non-Vine members. 
+
+For future analyses performed, it would be helpful to view another product category and perform the same analysis on that dataset. To see if the same trend and bias exists in other categories. Additionally, for the other product category compared to the beauty category, having zero filters exist in the dataset to solely obtain the information of the entire table would be beneficial to see how the entire 5.1 million figures compare completely. To get the overarching picture with all data included would be helpful to then gradually add filters to see if there is a level that triggers bias that we are not seeing or another statistical effect we cannot view with the filter established in this project analysis. 
