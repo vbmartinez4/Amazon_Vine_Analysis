@@ -27,10 +27,12 @@ Afterwards, we will investigate if any bias exists toward favorable reviews from
 - Jupyter Notebook
 
 ## Dataset:
-Amazon Beauty Review dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Beauty_v1_00.tsv.gz
+Amazon Beauty Review dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 ## Analysis Insights
 After having undergone the ETL process with the Amazon Beauty Reviews dataset, we take a look specifically at the vine table engineered through pgAdmin and exported as a csv via Excel to explore the all of the elements surrounding the vine reviews themselves. 
+
+![original vine table](Images/vine_table_original.png)
 
 Initially, there are a total of 5,115,666 reviews to start off in our vine table. We are asked to filter the dataset based on two following criteria:
 - Retrieve all rows where the total_votes count is equal to or greater than 20
@@ -38,8 +40,11 @@ Initially, there are a total of 5,115,666 reviews to start off in our vine table
 
 After filtering and creating a new dataset, there is a new total of 74,760 reviews. Using this new dataset, we look to answer the following research questions of Vine reviews that were paid versus unpaid. Below we can see two newly created dataframes, each filtered by the “vine” column. One dataframe contains all of the reviews that were written for the Vine program:
 
+![vine program review](Images/vine_paid_dataset.png)
 
 While the following dataframe contains all of the reviews that were not written for the Vine program:
+
+![non-vine program review](Images/vine_unpaid_dataset.png)
 
 From here we dive deeper into review analysis for each vine program category.
 
@@ -57,6 +62,8 @@ Utilizing the filtered dataset for vine paid reviews only, we determined that th
 However, for non-Vine reviews that were given 5-stars, we determined that there are 43,217 reviews in the whole data that received this type of rating. 
 
 - **What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
+
+![ratings percentage](Images/percentage_5_stars.png)
 
 We determine that the overall percentage of Vine reviews that were compromised of 5-stars is approximately 35.39%. For the non-Vine reviews, we determine approximately 58.31%. 
 
