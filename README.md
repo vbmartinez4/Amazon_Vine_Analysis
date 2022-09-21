@@ -50,3 +50,12 @@ There were 74,113 reviews that were not part of the Vine program. The percentage
 Utilizing the filtered dataset for vine paid reviews only, we determined that there were 229 reviews that were paid and given a ranking of 5-stars. 
 
 However, for non-Vine reviews that were given 5-stars, we determined that there are 43, 217 reviews in the whole data that received this type of rating. 
+
+- **What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
+
+We determine that the overall percentage of Vine reviews that were compromised of 5-stars is approximately 35.39%. For the non-Vine reviews, we determine approximately 58.31%. 
+
+Ultimately, we can see that the percentage of unpaid Vine reviews that ranked 5-stars exceeded the same measure for Vine reviews. There were more individuals of those who were not part of the Vine program but nonetheless provided greater high ranking reviews over Vine program participants. 
+
+## Summary
+After conducting our analysis of the beauty review data, we can conclude that bias does not exist for reviews in the Vine program. For members of the Vine program, they essentially have the job and responsibility of providing an accurate testament of the product they are publishing a review for. Granted they did publish less 5-star rating reviews than those who were not part of the program and therefore not paid, it should take into notice that they are more critical of their analysis in he reviews they do put out as part of their job. It can be seen as they being honest with giving a more true rating. This reasoning correlates with the lower percentage rating collected of 5-stars that Vine members gave versus the non-Vine members. 
