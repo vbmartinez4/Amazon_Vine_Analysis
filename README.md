@@ -26,4 +26,23 @@ Afterwards, we will investigate if any bias exists toward favorable reviews from
 ## Dataset:
 Amazon Beauty Review dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Beauty_v1_00.tsv.gz
 
+## Analysis Insights
+After having undergone the ETL process with the Amazon Beauty Reviews dataset, we take a look specifically at the vine table engineered through pgAdmin and exported as a csv via Excel to explore the all of the elements surrounding the vine reviews themselves. 
+
+Initially, there are a total of 5,115,666 reviews to start off in our vine table. We are asked to filter the dataset based on two following criteria:
+- Retrieve all rows where the total_votes count is equal to or greater than 20
+- Retrieve all rows where the number of helpful_votes divided by the total_votes is equal to or greater than 50%
+
+After filtering and creating a new dataset, there is a new total of 74,760 reviews. Using this new dataset, we look to answer the following research questions of Vine reviews that were paid versus unpaid. Below we can see two newly created dataframes, each filtered by the “vine” column. One dataframe contains all of the reviews that were written for the Vine program:
+
+
+While the following dataframe contains all of the reviews that were not written for the Vine program:
+
+From here we dive deeper into review analysis for each vine program category.
+
+## Results
+**- How many Vine reviews and non-Vine reviews were there?**
+There were 647 Vine reviews of beauty products. Comparing this to the total Vine reviews, this makes up roughly 0.87% of the total data
+
+There were 74,113 reviews that were not part of the Vine program. The percentage of non-Vine reviews for the total Vine reviews is approximately 99.13%. The non-Vine reviews by are exceeded the ones that were Vine reviews. 
 
