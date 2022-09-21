@@ -1,4 +1,7 @@
 # Amazon Vine Analysis
+
+![amazon beauty cover](Images/amazon_beauty.png)
+
 ## Overview
 
 Working for the startup BigMarket, we are the first data expert on the team that focuses on helping businesses optimize their market efforts. Our next big project for our current client, SellBy, in sight is to analyze reviews written by members of the paid Amazon Vine program. This program is a service that allows its manufacturers and sellers to receive reviews of their products. For example, firms like SellBy will pay a fee to Amazon and send Amazon Vine members their own products, in which these individuals are then required to produce and publish a review. 
