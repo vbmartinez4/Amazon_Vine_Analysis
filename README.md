@@ -42,11 +42,13 @@ From here we dive deeper into review analysis for each vine program category.
 
 ## Results
 - **How many Vine reviews and non-Vine reviews were there?**
+
 There were 647 Vine program reviews of beauty products. Comparing this to the total Vine reviews, this makes up roughly 0.87% of the total data
 
 There were 74,113 reviews that were not part of the Vine program. The percentage of non-Vine reviews in comparison to the total Vine reviews is approximately 99.13%. The non-Vine program reviews by far exceeded the ones that were Vine program categorized reviews. 
 
 - **How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?** 
+
 Utilizing the filtered dataset for vine paid reviews only, we determined that there were 229 reviews that were paid and given a ranking of 5-stars. 
 
 However, for non-Vine reviews that were given 5-stars, we determined that there are 43,217 reviews in the whole data that received this type of rating. 
